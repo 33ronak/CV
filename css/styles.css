@@ -1,0 +1,50 @@
+
+body{
+    background-color: #a5e9cf;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgba(105, 105, 105, 0.616);
+    border-width: 7.5px;
+    width: 7.5%;
+}
+
+h1{
+    color: #4f7894;
+}
+
+h2{
+    color: #4f7894;
+}
+
+h3{
+    color: #4f7894;
+}
+
+a {
+    text-decoration: none;    
+}
+
+a:link {
+    ccolor: #594f94b4;
+}
+
+a:visited {
+    color: #4f9485;
+}
+
+a:focus {
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: cyan;
+    border-bottom: 1px dashed;
+}
+
+a:active {
+    background-color: cyan;
+    border-bottom: 1px dashed;
+}
