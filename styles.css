@@ -1,23 +1,22 @@
 body{
+    color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: #EAF6F6;
 }
 h1{
     margin: 50px auto 0 auto;
     line-height: 2;
     font-size: 5.625rem;
     font-family: 'Tangerine', cursive;
-    font-weight: bold;
     color: #66BFBF;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    line-height: 2;
     color: #66BFBF;
+    padding-bottom: 10px;
 
 }
 h3{
@@ -28,22 +27,40 @@ h3{
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color: #607575;
+    border-color: #D1D6D7;
     border-width: 10px;
     width: 5%;
+    margin: 100px auto;
 }
+p{
+    line-height: 2;
 
-
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 25px;
+    color: #11999E;
+}
+a:hover{
+    color: #EAF6F6;
+}
 .topcontainer{
-    background-color: lightcyan;
+    background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+}
+.middle-container{
+    padding: 100px 0;
+    background-color: #F6FFBF;
 }
 .top-cloud{
     height: 65px;
     position: absolute;
     right: 600px;
-    top: 50px;
+    top: 40px;
 }
 .bottom-cloud{
     height: 65px;
@@ -51,31 +68,27 @@ hr{
     left: 600px;
     bottom: 300px;
 }
-.profile{
+.intro{
     width: 25%;
-    margin: 100px auto;
-    line-height: 2;
+    margin: auto;
 }
 .skills{
     margin: 100px auto;
 }
 .skill-row{
     width: 50%;
-    margin: 100px auto 0 auto;
+    margin: 100px auto 100px auto;
     text-align: justify;
-    line-height: 2;
 }
 .c-image{
     width: 25%;
     float:left;
-    margin-right: 20px;
-    padding: 15px   ;
+    padding: 30px 30px 0 0;
 }
 .web-image{
     width: 25%;
     float: right;
-    margin-left: 20px;
-    padding: 15px   ;
+    padding-left: 30px;
 }
 .profile-img{
     width: 225px;
@@ -91,7 +104,7 @@ hr{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -107,28 +120,16 @@ hr{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-.contact-me{
-    width: 25%;
-    margin: 100px auto;
-    line-height: 2;
+.contact-message{
+    width: 35%;
+    margin: 50px auto 75px auto;
 }
 .bottom-container{
     background-color: #66BFBF;
-    padding: 100px;
-    line-height: 2;
+    padding: 50px 0 25px;
 }
-.footer-link{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.15rem;
-    text-decoration: none;
-    font-weight: bold;
-    margin: auto 25px;
-    color: #11999E;
-}
-.footer-link:hover{
-    color: #132959;
-}
-
 .footer-note{
 color: #EAF6F6;
+font-size: 0.75rem;
+padding: 35px 0;
 }
