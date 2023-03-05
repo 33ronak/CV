@@ -1,2 +1,2 @@
-# Resume
-Resume:-This is a basic experimental/learning website built using HTML and CSS.
+# Portfolio
+This is a portfolio website built using HTML and CSS only.
